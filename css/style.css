@@ -1,0 +1,243 @@
+:root {
+  --logotype-font: "Raleway", sans-serif;
+  --main-font: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* ================== HEADER ================== */
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #2196f3;
+}
+
+.chosen-navigation-list-link {
+  color: #2196f3;
+}
+
+.addess
+
+.address-mail,
+.address-tel {
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.address-react:focus,
+.address-react:hover {
+  color: #2196f3;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-list: {
+  align-items: ;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.address-list {
+  display: flex;
+  justify-content: flex-end;
+}
+/* ================== END HEADER ================== */
+
+/* ================== HERO ================== */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+/* ================== END HERO ================== */
+
+/* ================== ADVANTAGES ================== */
+.advantages-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advantages-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ================== END ADVANTAGES ================== */
+
+/* ================== COMPONENTS ================== */
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logotype {
+  font-family: var(--logotype-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.web-logotype {
+  color: #2196f3;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.italic {
+  text-decoration: none;
+}
+/* ================== END COMPONENTS ================== */
+
+/* ================== TEAM ================== */
+.members-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.members-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ================== END TEAM ================== */
+
+/* ================== FOOTER ================== */
+.address-footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.715;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-footer-mail,
+.address-footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.715;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ================== END FOOTER ================== */
+
+/* ================== PORTFOLIO ================== */
+.filters-list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.filters-list-button:hover,
+.filters-list-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.chosen-filters-list-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ================== END PORTFOLIO ================== */
