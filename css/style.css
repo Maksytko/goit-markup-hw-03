@@ -74,6 +74,7 @@ header a {
 
 header {
   padding: 25px 0px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-list {
@@ -140,13 +141,13 @@ header {
 
 .hero-section {
   background-color: #2f303a;
+  padding: 200px 200px;
 }
 
 .hero-section .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 200px 200px;
 }
 
 /* ================== END HERO ================== */
@@ -165,15 +166,14 @@ header {
 .advantages-list-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.172;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
   max-width: 270px;
 }
 
-.advantages-section .container {
-  padding-top: 95px;
-  padding-bottom: 95px;
+.advantages-section {
+  padding: 95px 0px;
 }
 
 .hidden-title {
@@ -235,7 +235,7 @@ header {
 /* ================== END COMPONENTS ================== */
 
 /*================== WORK ==================  */
-.work-section .container {
+.work-section {
   padding-bottom: 95px;
 }
 
@@ -280,9 +280,9 @@ header {
   margin: -15px;
 }
 
-.members-section .container {
-  padding-top: 95px;
-  padding-bottom: 95px;
+.members-section {
+  background-color: #f5f4fa;
+  padding: 95px 0px;
 }
 
 .members-list-item {
@@ -394,14 +394,15 @@ footer a {
 
 .portfolio-list {
   display: flex;
-  margin: -13px;
+  margin: -15px;
   flex-wrap: wrap;
 }
 
 .portfolio-list-item {
-  margin: 13px;
+  margin: 15px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+  width: 370px;
 }
 
 .portfolio-inf {
