@@ -378,7 +378,8 @@ footer a {
 }
 
 .portfolio-section {
-  padding: 95px 0px;
+  padding-top: 70px;
+  padding-bottom: 95px;
 }
 
 .filters-list {
