@@ -135,8 +135,9 @@ header {
   cursor: pointer;
   min-width: 200px;
   padding: 10px 30px;
-  border-radius: 4px;
   border-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .hero-section {
@@ -169,11 +170,12 @@ header {
   line-height: 1.172;
   letter-spacing: 0.03em;
   color: #757575;
-  min-width: 260px;
+  max-width: 260px;
 }
 
 .advantages-section .container {
-  padding: 95px 0px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .hidden-title {
@@ -269,13 +271,20 @@ header {
   color: #757575;
 }
 
+.members-list-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .members-list {
   display: flex;
   margin: -15px;
 }
 
 .members-section .container {
-  padding: 95px 0px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .members-list-item {
@@ -344,6 +353,9 @@ footer a {
 .filters-list-button:focus {
   color: #ffffff;
   background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .chosen-filters-list-button {
@@ -383,12 +395,14 @@ footer a {
 
 .portfolio-list {
   display: flex;
-  margin: -15px;
+  margin: -13px;
   flex-wrap: wrap;
 }
 
 .portfolio-list-item {
-  margin: 15px;
+  margin: 13px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-inf {
